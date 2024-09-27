@@ -18,9 +18,9 @@ class two extends One
 	System.out.println("second");
 	}
 }
-public class AS17_Superclass_Non_parametrizedboth extends two {
+public class AS17_Supercalling_Non_parametrizedboth extends two {
 
-	AS17_Superclass_Non_parametrizedboth()
+	AS17_Supercalling_Non_parametrizedboth()
 {
 	super();
 System.out.println("last class");
@@ -29,7 +29,7 @@ System.out.println("last class");
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-new AS17_Superclass_Non_parametrizedboth ();
+new AS17_Supercalling_Non_parametrizedboth ();
 	}
 
 }

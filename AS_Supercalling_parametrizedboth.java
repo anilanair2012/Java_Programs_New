@@ -20,7 +20,7 @@ second(int a,String b)
 }
 }
 
-public class AS18_Supercalling_parametrizedboth extends second{
+public class AS_Supercalling_parametrizedboth extends second{
 	AS18_Supercalling_parametrizedboth(int a)
 	{
 		super(2,"3");
